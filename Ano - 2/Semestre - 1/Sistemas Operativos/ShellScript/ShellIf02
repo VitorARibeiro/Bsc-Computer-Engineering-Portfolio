@@ -1,0 +1,13 @@
+#!/bin/sh
+
+read -p "Indique um numero" A
+read -p "Indique um numero" B
+read -p "Indique um numero" C
+
+if test $A -eq $B && test $B -eq $C
+then 
+	echo "Sao iguais"
+else
+	echo "Nao sao iguais"
+fi
+

@@ -1,0 +1,22 @@
+#!/bin/sh
+
+palavra=0
+count=0
+total=0
+
+read -p "Indique um valor: " palavra
+
+until test "$palavra" = "fim" 
+do
+	count=$(($count + 1))
+	total=$(($total + $palavra))
+	read -p "Indique um valor: " palavra
+done
+
+if test $count -ne 0
+then
+	echo "Media é $(($total / $count))"
+else
+	echo "Media é $palavra"
+fi
+

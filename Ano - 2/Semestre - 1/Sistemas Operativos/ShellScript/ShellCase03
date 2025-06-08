@@ -1,0 +1,17 @@
+#!/bin/sh
+mai=0
+min=0
+
+for i in $*
+do
+case $i in
+[A-Z])
+	mai=$(($mai + 1 ));;
+[a-z])
+	min=$(($min + 1 ));;
+esac
+done 
+
+echo "$mai Maiusculas"
+echo "$min Minusculas"
+ 

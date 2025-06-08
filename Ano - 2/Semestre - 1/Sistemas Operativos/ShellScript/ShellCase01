@@ -1,0 +1,7 @@
+#!/bin/sh
+
+ficheiro=$1
+
+linhas=$(grep -c '^#' $ficheiro)
+
+echo $linhas

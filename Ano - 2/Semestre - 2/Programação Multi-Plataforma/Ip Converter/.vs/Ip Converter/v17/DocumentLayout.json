@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vitor\\Desktop\\Github Clones\\Multi-Plataforma\\Ip Converter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6504CE3B-D223-4466-9C98-01F05B8AA418}|Ip Converter\\Ip Converter.csproj|c:\\users\\vitor\\desktop\\github clones\\multi-plataforma\\ip converter\\ip converter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6504CE3B-D223-4466-9C98-01F05B8AA418}|Ip Converter\\Ip Converter.csproj|solutionrelative:ip converter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6504CE3B-D223-4466-9C98-01F05B8AA418}|Ip Converter\\Ip Converter.csproj|c:\\users\\vitor\\desktop\\github clones\\multi-plataforma\\ip converter\\ip converter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6504CE3B-D223-4466-9C98-01F05B8AA418}|Ip Converter\\Ip Converter.csproj|solutionrelative:ip converter\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6504CE3B-D223-4466-9C98-01F05B8AA418}|Ip Converter\\Ip Converter.csproj|c:\\users\\vitor\\desktop\\github clones\\multi-plataforma\\ip converter\\ip converter\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6504CE3B-D223-4466-9C98-01F05B8AA418}|Ip Converter\\Ip Converter.csproj|solutionrelative:ip converter\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Github Clones\\Multi-Plataforma\\Ip Converter\\Ip Converter\\Form1.cs",
+              "RelativeDocumentMoniker": "Ip Converter\\Form1.cs",
+              "ToolTip": "C:\\Users\\Vitor\\Desktop\\Github Clones\\Multi-Plataforma\\Ip Converter\\Ip Converter\\Form1.cs",
+              "RelativeToolTip": "Ip Converter\\Form1.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAD4v0AAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:32:36.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Github Clones\\Multi-Plataforma\\Ip Converter\\Ip Converter\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Ip Converter\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Vitor\\Desktop\\Github Clones\\Multi-Plataforma\\Ip Converter\\Ip Converter\\Form1.Designer.cs",
+              "RelativeToolTip": "Ip Converter\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:28:45.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Vitor\\Desktop\\Github Clones\\Multi-Plataforma\\Ip Converter\\Ip Converter\\Form1.cs",
+              "RelativeDocumentMoniker": "Ip Converter\\Form1.cs",
+              "ToolTip": "C:\\Users\\Vitor\\Desktop\\Github Clones\\Multi-Plataforma\\Ip Converter\\Ip Converter\\Form1.cs [Design]",
+              "RelativeToolTip": "Ip Converter\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:26:34.868Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

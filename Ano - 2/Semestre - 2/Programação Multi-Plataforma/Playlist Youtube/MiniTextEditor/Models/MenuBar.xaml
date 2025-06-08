@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="MiniTextEditor.Models.MenuBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MiniTextEditor.Models"
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="450">
+    <Grid>
+        
+        <Menu>
+            <MenuItem Header="File" Width="50">
+                <MenuItem Header="Open File" Click="OpenFile"/>
+                <MenuItem Header="Save File" Click="SaveFile"/>
+                <MenuItem Header="CLose File" Click="CloseFile"/>
+            </MenuItem>
+            <MenuItem Header="Exit" Width="50" Click="Exit"/>
+
+
+        </Menu>
+    </Grid>
+</UserControl>

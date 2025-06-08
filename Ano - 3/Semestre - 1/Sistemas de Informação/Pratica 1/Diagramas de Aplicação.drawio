@@ -1,0 +1,31 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="fwA5pjNjGtxt3rgk2rFg">
+    <mxGraphModel dx="1674" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fSdQIm1XfZ407lV6mBzt-1" value="&lt;font color=&quot;#ffffff&quot;&gt;Servidor FTP&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#23445D;" vertex="1" parent="1">
+          <mxGeometry x="164" y="170" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fSdQIm1XfZ407lV6mBzt-2" value="ERP - SIMMS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="164" y="310" width="166" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fSdQIm1XfZ407lV6mBzt-3" value="CRP - SIMMS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="498" y="310" width="166" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fSdQIm1XfZ407lV6mBzt-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.17;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="fSdQIm1XfZ407lV6mBzt-2" target="fSdQIm1XfZ407lV6mBzt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="340" as="sourcePoint" />
+            <mxPoint x="410" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fSdQIm1XfZ407lV6mBzt-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.17;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="310" as="sourcePoint" />
+            <mxPoint x="592" y="232" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

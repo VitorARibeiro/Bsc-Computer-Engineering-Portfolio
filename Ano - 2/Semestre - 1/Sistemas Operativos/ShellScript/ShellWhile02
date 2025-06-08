@@ -1,0 +1,15 @@
+#!/bin/sh
+
+fatorial(){
+numero=$1
+resultado=1
+for i in $(seq 2 1 $numero)
+do
+	resultado=$(($resultado * $i))
+done
+
+echo "$resultado"
+
+}
+
+echo "$(fatorial $1)"

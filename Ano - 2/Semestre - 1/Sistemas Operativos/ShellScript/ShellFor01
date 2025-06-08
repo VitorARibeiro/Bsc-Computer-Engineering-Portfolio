@@ -1,0 +1,9 @@
+#!/bin/sh
+resposta=0
+for numero in $*
+do
+	resposta=$(($numero+$resposta))
+done
+
+
+echo $resposta

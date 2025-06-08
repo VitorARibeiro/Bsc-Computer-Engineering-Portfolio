@@ -1,0 +1,49 @@
+#router 0
+	enable 
+	conf term
+	interface Fa0/1
+	switchport mode trunk
+	switchport trunk allowed Vlan 10,20,30
+	switchport trunk native Vlan 99
+	exit
+
+Configurar VTP
+	enable
+	conf term
+	vtp mode transparent
+	vtp domain DOMINIO
+	exit
+	
+Criar Vlans no Server
+	enable 
+	conf term
+	Vlan 10
+	Name Alunos
+	Vlan 20
+	Name Professores
+	Vlan 30
+	Name Admins
+	exit
+	
+
+	
+Port Security
+	enable
+	conf term
+	interface fa0/2
+	switchport port-security maximum 1
+	switchport port-security violation shutdown
+	switchport port-security mac-address sticky
+	exit
+
+Atribuir Lans
+
+
+	enable
+	conf term
+	interface fa0/3
+	switchport mode access
+	switchport access Vlan 10
+	exit
+
+	

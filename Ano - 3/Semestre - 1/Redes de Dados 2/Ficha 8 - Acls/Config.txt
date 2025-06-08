@@ -1,0 +1,52 @@
+
+---Router 0---
+enable
+conf term
+interface Gig0/0
+ip add 172.31.1.126 255.255.248.0
+exit
+interface Se0/3/0
+ip add 194.168.10.1 255.255.255.252
+exit
+router ospf 1
+network 194.168.10.0 0.0.0.3 area 0
+network 172.31.1.96 0.0.7.255 area 0
+exit
+
+
+---Router 1---
+enable
+conf term
+interface Gig0/0
+ip add 192.168.1.1 255.255.255.0
+exit
+interface Se0/3/0
+ip add 194.168.10.2 255.255.255.252 
+exit
+router ospf 1
+network 194.168.10.0 0.0.0.3 area 0
+network 192.168.1.0 0.0.0.255 area 0
+
+---Alineas ACLs---
+O-
+    -Aplicar no router 1-
+    enable 
+    conf term  
+    access-list 1 deny host 172.31.1.103 
+    access-list 1 permit any
+    interface Gig0/0
+    ip access-group 1 out
+    exit
+
+P-
+    -Aplicar no router 0- 
+    enable 
+    conf term
+    access-list 100 deny tcp host 172.31.1.101 host 194.168.10.1 eq 23
+    access-list 100 permit ip any any
+    interface Gig0/0
+    ip access-group 100 in
+    exit
+    
+    
+

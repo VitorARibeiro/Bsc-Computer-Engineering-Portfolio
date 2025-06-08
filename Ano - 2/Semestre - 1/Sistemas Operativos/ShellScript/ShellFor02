@@ -1,0 +1,10 @@
+
+#!/bin/bash
+
+
+for i in $(seq $# -1 1); do
+    # Imprime os argumentos na ordem inversa
+    echo "${!i}"
+done
+
+

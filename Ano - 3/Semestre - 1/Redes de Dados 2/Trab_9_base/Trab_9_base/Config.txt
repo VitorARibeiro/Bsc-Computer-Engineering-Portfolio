@@ -1,0 +1,27 @@
+ACL EXTENDED
+    access-list <Número> <permit | deny> <Protocolo> <IP origem> <Wildcard Mask> <IP destino> <Wildcard Mask> [eq <porta>]
+
+ACL Standard
+    access-list <Número> <permit | deny> <IP origem> <Wildcard Mask>
+
+    Como a acl EXTENDED é mais especifica , podendo indicar protocolos , portas
+    ip origem e destino , deve se colocada mais perto da origem para evitar o pacote
+    andar caminho desnecessario
+    Acl Standad é exatamente ao contrario ja que apenas tem em conta o ip de origem
+    deve ser colocada mais proximo do destino já que é a unica maneira de 
+    nao bloquear os restantes caminhos
+
+
+- Apenas Host da rede B , Conseguem aceder a DHCP
+    ACL EXTENDED no router 0 (Didatico) porta Fa0/0
+    access-list 
+
+    enable
+    conf term
+    access-list 100 permit udp 192.172.0.128 0.0.0.15 host 192.172.0.3 eq 67
+    access-list 100 permit udp host 192.172.0.3 192.172.0.128 0.0.0.15 eq 68
+    access-list 100 deny udp any host 192.172.0.3 eq 67
+    access-list 100 deny udp any host 192.172.0.3 eq 68
+    access-list 100 permit ip any any
+    interface Fa0/0
+    ip access-group 100 out

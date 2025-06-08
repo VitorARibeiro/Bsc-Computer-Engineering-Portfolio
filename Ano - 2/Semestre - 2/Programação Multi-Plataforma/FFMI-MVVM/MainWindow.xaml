@@ -1,0 +1,39 @@
+﻿<Window x:Class="FFMI_MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FFMI_MVVM"
+        mc:Ignorable="d"
+        Title="FFMI Calculator" Height="400" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="9*"/>
+
+        </Grid.ColumnDefinitions>
+        
+        <!--Parte da Esquerda -->
+
+        <StackPanel >
+            <Label FontSize="16" Content="Fat Free Mass" />
+            <Label FontSize="16" Content="Body Fat" />
+            <Label FontSize="16" Content="FFMI" />
+            <Label FontSize="16" Content="Normalized FFMI" />
+        </StackPanel>
+
+        <!--Parte da Direita -->
+        <StackPanel Grid.Column="1" Margin="30">
+            
+            <Label FontSize="16" Content="Fat Free Mass" />
+            <Slider  Minimum="120" Maximum="220"/>
+            <Label FontSize="16" Content="Body Fat" />
+            <Slider MinHeight="30" Maximum="160"/>
+            <Label FontSize="16" Content="FFMI" />
+            <Slider Minimum="0" Maximum="100"/>
+
+
+        </StackPanel>
+        
+    </Grid>
+</Window>

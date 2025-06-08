@@ -1,0 +1,22 @@
+#!/bin/sh
+
+zero=0
+pos=0
+neg=0
+
+for args in $*
+do
+	if test $args -eq 0
+	then
+		zero=$(($zero + 1))
+	elif test $args -gt 0
+	then
+		pos=$(($pos + 1))
+	else
+		neg=$(($neg + 1))
+	fi
+done
+
+echo "Zeros : $zero"
+echo "Positivos :  $pos"
+echo "Negativos : $neg" 

@@ -1,0 +1,10 @@
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\bin\Debug\Ip Converter.exe.config
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\bin\Debug\Ip Converter.exe
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\bin\Debug\Ip Converter.pdb
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\obj\Debug\Ip Converter.csproj.AssemblyReference.cache
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\obj\Debug\Ip_Converter.Form1.resources
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\obj\Debug\Ip_Converter.Properties.Resources.resources
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\obj\Debug\Ip Converter.csproj.GenerateResource.cache
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\obj\Debug\Ip Converter.csproj.CoreCompileInputs.cache
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\obj\Debug\Ip Converter.exe
+C:\Users\Vitor\Desktop\Github Clones\Multi-Plataforma\Ip Converter\Ip Converter\obj\Debug\Ip Converter.pdb

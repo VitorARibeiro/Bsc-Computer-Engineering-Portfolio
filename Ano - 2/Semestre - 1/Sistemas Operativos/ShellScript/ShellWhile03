@@ -1,0 +1,42 @@
+#!/bin/sh
+
+max(){
+p=$1
+s=$2
+if test $p -ge $s
+then
+	maximo=$p
+else
+	maximo=$s
+fi
+
+echo $maximo
+}
+
+min(){
+p=$1
+s=$2
+if test $p -le $s
+then
+        minimo=$p
+else
+        minimo=$s
+fi
+
+echo $minimo
+}
+
+maximo=$1
+minimo=$1
+
+for i in $#
+do
+maximo=$(max $maximo $i)
+minimo=$(min $minimo $i)
+
+done
+
+
+echo "Max: $maximo"
+echo "Min: $minimo"
+

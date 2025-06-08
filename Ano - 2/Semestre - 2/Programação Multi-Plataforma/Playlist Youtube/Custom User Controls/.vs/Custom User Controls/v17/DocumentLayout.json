@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Cloned Repos\\Multi-Plataforma\\Playlist Youtube\\Custom User Controls\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AEC422A-1C54-4BA2-82FB-02B77B3115FA}|Custom User Controls.csproj|c:\\users\\user\\desktop\\cloned repos\\multi-plataforma\\playlist youtube\\custom user controls\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9AEC422A-1C54-4BA2-82FB-02B77B3115FA}|Custom User Controls.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AEC422A-1C54-4BA2-82FB-02B77B3115FA}|Custom User Controls.csproj|C:\\Users\\User\\Desktop\\Cloned Repos\\Multi-Plataforma\\Playlist Youtube\\Custom User Controls\\view\\usercontrols\\menubar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9AEC422A-1C54-4BA2-82FB-02B77B3115FA}|Custom User Controls.csproj|solutionrelative:view\\usercontrols\\menubar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuBar.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Cloned Repos\\Multi-Plataforma\\Playlist Youtube\\Custom User Controls\\View\\UserControls\\MenuBar.xaml",
+              "RelativeDocumentMoniker": "View\\UserControls\\MenuBar.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Cloned Repos\\Multi-Plataforma\\Playlist Youtube\\Custom User Controls\\View\\UserControls\\MenuBar.xaml",
+              "RelativeToolTip": "View\\UserControls\\MenuBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-07T11:36:43.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Cloned Repos\\Multi-Plataforma\\Playlist Youtube\\Custom User Controls\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Cloned Repos\\Multi-Plataforma\\Playlist Youtube\\Custom User Controls\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-07T11:18:05.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
